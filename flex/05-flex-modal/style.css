@@ -20,6 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
 }
 
 .icon {
@@ -35,6 +39,12 @@ body {
   justify-content: center;
 }
 
+.header {
+  margin-left: 15px;
+  font-size: larger;
+  font-weight: bold;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -46,21 +56,57 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+}
+
+.text {
+  margin-left: 58px;
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 15px;
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-left: 58px;
+  margin-right: 5px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* MY ANSWER */
+
+.modal {
+padding: 15px;
+display: flex;
+flex-flow: row wrap;
+align-content: flex-start;
+}
+
+.header {
+  margin-left: 15px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.text {
+  margin-left: 58px;
+}
+
+button {
+  margin-top: 15px;
+}
+
+button.continue {
+  margin-left: 58px;
+  margin-right: 5px;
 }
